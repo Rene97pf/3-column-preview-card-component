@@ -1,24 +1,24 @@
-:root{
---Bright-orange: hsl(31, 77%, 52%);
---Dark-cyan: hsl(184, 100%, 22%);
---Very-dark-cyan: hsl(179, 100%, 13%);
---Transparent-white: hsla(0, 0%, 100%, 0.75);
---Very-light-gray: hsl(0, 0%, 95%);
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-body{
+body {
     background-color: var(--Very-light-gray);
     font-size: 15px;
     font-family: "lexend deca";
 }
 
-button{
+button {
     margin-top: 40px;
     width: 140px;
     height: 50px;
@@ -26,30 +26,34 @@ button{
     border-radius: 20px 20px 20px 20px;
     font-family: "lexend deca";
     font-size: 15px;
-    
-}
-.Button1{
-    color:var(--Bright-orange);
-
-}
-.Button2{
-    color:var(--Dark-cyan);
-
-}
-.Button3{
-    color:var(--Very-dark-cyan);
 
 }
 
-.container{
+.Button1 {
+    color: var(--Bright-orange);
+
+}
+
+.Button2 {
+    color: var(--Dark-cyan);
+
+}
+
+.Button3 {
+    color: var(--Very-dark-cyan);
+
+}
+
+.container {
     display: flex;
     flex-direction: column;
     margin: 40px 18px 40px 25px;
     border-radius: 90px;
 
-    
+
 }
-.container h1{
+
+.container h1 {
     font-family: "big shoulders display";
     font-weight: 700;
     color: var(--Very-light-gray);
@@ -59,31 +63,31 @@ button{
 
 }
 
-.container p{
+.container p {
     color: var(--Transparent-white);
     padding-top: 20px;
     padding-right: 25px;
     letter-spacing: 0.5px;
 }
 
-.container .card1{
-background-color: var(--Bright-orange);
-height: 430px;
-border-radius: 10px 10px 0px 0px;
-padding: 50px 10px 10px 50px;
+.container .card1 {
+    background-color: var(--Bright-orange);
+    height: 430px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px 10px 10px 50px;
 
 }
 
 
-.container .card2{
+.container .card2 {
     background-color: var(--Dark-cyan);
     height: 430px;
     padding: 50px 10px 10px 50px;
-    
-    
+
+
 }
 
-.container .card3{
+.container .card3 {
     background-color: var(--Very-dark-cyan);
     height: 430px;
     border-radius: 0px 0px 10px 10px;
@@ -91,58 +95,61 @@ padding: 50px 10px 10px 50px;
     padding-right: 15px;
 }
 
-@media (min-width:768px){
-    button{
+@media (min-width:768px) {
+    button {
         margin-top: 80px;
-    
+
     }
-    .container{
+
+    .container {
         display: flex;
         flex-direction: row;
         margin: 190px 200px 40px 200px;
         justify-content: center;
 
-    
-        
+
+
     }
-    .container .card1{
+
+    .container .card1 {
         background-color: var(--Bright-orange);
         height: 500px;
         border-radius: 10px 0px 0px 10px;
         padding: 50px 35px 10px 50px;
-        
-        }
-        
-        
-        .container .card2{
-            background-color: var(--Dark-cyan);
-            height: 500px;
-            padding: 50px 30px 10px 50px;
-            
-            
-        }
-        
-        .container .card3{
-            background-color: var(--Very-dark-cyan);
-            height: 500px;
-            border-radius: 0px 10px 10px 0px;
-            padding: 50px 10px 10px 50px;
-            padding-right: 15px;
-        
-        }
-        .container p{
-            padding-right: 45px;
-            padding-top: 35px;
-            
-            
-        }
 
-        .container h1{
-            
-            padding-top: 25px;
-            
-            
-        }
+    }
+
+
+    .container .card2 {
+        background-color: var(--Dark-cyan);
+        height: 500px;
+        padding: 50px 30px 10px 50px;
+
+
+    }
+
+    .container .card3 {
+        background-color: var(--Very-dark-cyan);
+        height: 500px;
+        border-radius: 0px 10px 10px 0px;
+        padding: 50px 10px 10px 50px;
+        padding-right: 15px;
+
+    }
+
+    .container p {
+        padding-right: 45px;
+        padding-top: 35px;
+
+
+    }
+
+    .container h1 {
+
+        padding-top: 25px;
+
+
+    }
 
 
 }
