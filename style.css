@@ -92,11 +92,14 @@ padding: 50px 10px 10px 50px;
 }
 
 @media (min-width:768px){
+    button{
+        margin-top: 80px;
+    
+    }
     .container{
         display: flex;
         flex-direction: row;
-        margin: 190px 450px 40px 450px;
-        
+        margin: 190px 200px 40px 200px;
         justify-content: center;
 
     
@@ -106,7 +109,7 @@ padding: 50px 10px 10px 50px;
         background-color: var(--Bright-orange);
         height: 500px;
         border-radius: 10px 0px 0px 10px;
-        padding: 50px 10px 10px 50px;
+        padding: 50px 35px 10px 50px;
         
         }
         
@@ -114,7 +117,7 @@ padding: 50px 10px 10px 50px;
         .container .card2{
             background-color: var(--Dark-cyan);
             height: 500px;
-            padding: 50px 10px 10px 50px;
+            padding: 50px 30px 10px 50px;
             
             
         }
@@ -125,9 +128,7 @@ padding: 50px 10px 10px 50px;
             border-radius: 0px 10px 10px 0px;
             padding: 50px 10px 10px 50px;
             padding-right: 15px;
-        }
-        button{
-            margin-top: 100px;
+        
         }
         .container p{
             padding-right: 45px;
@@ -142,5 +143,6 @@ padding: 50px 10px 10px 50px;
             
             
         }
-            
+
+
 }
